@@ -4,7 +4,7 @@
 
 ## Implemented features and technologies:
 
-    Real-time Communication: Established a WebSocket connection using socket.io-client for real-time updates.
+Real-time Communication: Established a WebSocket connection using socket.io-client for real-time updates.
     State Management: Utilized Zustand for simple and efficient state management to track and update drone data.
     Interactive Mapping: Integrated react-map-gl for interactive map visualization, allowing users to view drone locations and paths.
     UI Components:
@@ -22,9 +22,9 @@ Overall, the frontend dynamically displays drone positions and details, allowing
 
 The initial implementation of the backend had a significant limitation: it generated and emitted data for only one drone, and each emission contained entirely new drone details, including the serial and registration. This led to two major issues on the frontend:
 
-    Lack of Persistent Identity: Since each update involved changing the serial and registration, we couldn't track the movement or update the state of a specific drone. It was as if a new drone appeared with each update, making continuity impossible.
+Lack of Persistent Identity: Since each update involved changing the serial and registration, we couldn't track the movement or update the state of a specific drone. It was as if a new drone appeared with each update, making continuity impossible.
 
-    No Multiple Drone Support: With only one drone's data being sent, we lacked the ability to show a fleet of drones. Additionally, treating each update as a new drone entry in the frontend resulted in a static list with no actual movement or state updates.
+ No Multiple Drone Support: With only one drone's data being sent, we lacked the ability to show a fleet of drones. Additionally, treating each update as a new drone entry in the frontend resulted in a static list with no actual movement or state updates.
 
 ## Solution:
 
