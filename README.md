@@ -4,6 +4,18 @@
 
 ## Implemented features and technologies:
 
+- **WebSockets**: Real-time bidirectional event-based communication.
+- **socket.io-client**: Client-side library to connect with a Socket.io server.
+- **Zustand**: Minimalistic state management solution.
+- **react-map-gl**: React wrapper for Mapbox GL JS, used for interactive maps.
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
+- **Next.js**: React framework with server-side rendering for building efficient web applications.
+- **React Hooks**: Functional component features for state and lifecycle management.
+- **Functional Components**: Reusable components with isolated state.
+- **Tooltip**: Custom UI component for showing information on hover.
+- **Tabs**: Custom tab components for organized data display.
+
+
 Real-time Communication: Established a WebSocket connection using socket.io-client for real-time updates.
     State Management: Utilized Zustand for simple and efficient state management to track and update drone data.
     Interactive Mapping: Integrated react-map-gl for interactive map visualization, allowing users to view drone locations and paths.
